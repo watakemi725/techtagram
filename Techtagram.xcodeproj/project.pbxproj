@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46F915C51BF4F589003BB08A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F915C41BF4F589003BB08A /* AppDelegate.swift */; };
+		46F915C71BF4F589003BB08A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F915C61BF4F589003BB08A /* ViewController.swift */; };
+		46F915CA1BF4F589003BB08A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F915C81BF4F589003BB08A /* Main.storyboard */; };
+		46F915CC1BF4F589003BB08A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46F915CB1BF4F589003BB08A /* Assets.xcassets */; };
+		46F915CF1BF4F589003BB08A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46F915CD1BF4F589003BB08A /* LaunchScreen.storyboard */; };
+		46F915DA1BF4F589003BB08A /* TechtagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F915D91BF4F589003BB08A /* TechtagramTests.swift */; };
+		46F915E51BF4F589003BB08A /* TechtagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F915E41BF4F589003BB08A /* TechtagramUITests.swift */; };
+		46F915F31BF5B334003BB08A /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46F915F21BF5B334003BB08A /* testViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46F915D61BF4F589003BB08A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F915B91BF4F589003BB08A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46F915C01BF4F589003BB08A;
+			remoteInfo = Techtagram;
+		};
+		46F915E11BF4F589003BB08A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F915B91BF4F589003BB08A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46F915C01BF4F589003BB08A;
+			remoteInfo = Techtagram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46F915C11BF4F589003BB08A /* Techtagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Techtagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F915C41BF4F589003BB08A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46F915C61BF4F589003BB08A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46F915C91BF4F589003BB08A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46F915CB1BF4F589003BB08A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46F915CE1BF4F589003BB08A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46F915D01BF4F589003BB08A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F915D51BF4F589003BB08A /* TechtagramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechtagramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F915D91BF4F589003BB08A /* TechtagramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechtagramTests.swift; sourceTree = "<group>"; };
+		46F915DB1BF4F589003BB08A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F915E01BF4F589003BB08A /* TechtagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TechtagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F915E41BF4F589003BB08A /* TechtagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TechtagramUITests.swift; sourceTree = "<group>"; };
+		46F915E61BF4F589003BB08A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46F915F21BF5B334003BB08A /* testViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46F915BE1BF4F589003BB08A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F915D21BF4F589003BB08A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F915DD1BF4F589003BB08A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46F915B81BF4F589003BB08A = {
+			isa = PBXGroup;
+			children = (
+				46F915C31BF4F589003BB08A /* Techtagram */,
+				46F915D81BF4F589003BB08A /* TechtagramTests */,
+				46F915E31BF4F589003BB08A /* TechtagramUITests */,
+				46F915C21BF4F589003BB08A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46F915C21BF4F589003BB08A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46F915C11BF4F589003BB08A /* Techtagram.app */,
+				46F915D51BF4F589003BB08A /* TechtagramTests.xctest */,
+				46F915E01BF4F589003BB08A /* TechtagramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46F915C31BF4F589003BB08A /* Techtagram */ = {
+			isa = PBXGroup;
+			children = (
+				46F915C41BF4F589003BB08A /* AppDelegate.swift */,
+				46F915C61BF4F589003BB08A /* ViewController.swift */,
+				46F915F21BF5B334003BB08A /* testViewController.swift */,
+				46F915C81BF4F589003BB08A /* Main.storyboard */,
+				46F915CB1BF4F589003BB08A /* Assets.xcassets */,
+				46F915CD1BF4F589003BB08A /* LaunchScreen.storyboard */,
+				46F915D01BF4F589003BB08A /* Info.plist */,
+			);
+			path = Techtagram;
+			sourceTree = "<group>";
+		};
+		46F915D81BF4F589003BB08A /* TechtagramTests */ = {
+			isa = PBXGroup;
+			children = (
+				46F915D91BF4F589003BB08A /* TechtagramTests.swift */,
+				46F915DB1BF4F589003BB08A /* Info.plist */,
+			);
+			path = TechtagramTests;
+			sourceTree = "<group>";
+		};
+		46F915E31BF4F589003BB08A /* TechtagramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46F915E41BF4F589003BB08A /* TechtagramUITests.swift */,
+				46F915E61BF4F589003BB08A /* Info.plist */,
+			);
+			path = TechtagramUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46F915C01BF4F589003BB08A /* Techtagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F915E91BF4F589003BB08A /* Build configuration list for PBXNativeTarget "Techtagram" */;
+			buildPhases = (
+				46F915BD1BF4F589003BB08A /* Sources */,
+				46F915BE1BF4F589003BB08A /* Frameworks */,
+				46F915BF1BF4F589003BB08A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Techtagram;
+			productName = Techtagram;
+			productReference = 46F915C11BF4F589003BB08A /* Techtagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46F915D41BF4F589003BB08A /* TechtagramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F915EC1BF4F589003BB08A /* Build configuration list for PBXNativeTarget "TechtagramTests" */;
+			buildPhases = (
+				46F915D11BF4F589003BB08A /* Sources */,
+				46F915D21BF4F589003BB08A /* Frameworks */,
+				46F915D31BF4F589003BB08A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46F915D71BF4F589003BB08A /* PBXTargetDependency */,
+			);
+			name = TechtagramTests;
+			productName = TechtagramTests;
+			productReference = 46F915D51BF4F589003BB08A /* TechtagramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46F915DF1BF4F589003BB08A /* TechtagramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F915EF1BF4F589003BB08A /* Build configuration list for PBXNativeTarget "TechtagramUITests" */;
+			buildPhases = (
+				46F915DC1BF4F589003BB08A /* Sources */,
+				46F915DD1BF4F589003BB08A /* Frameworks */,
+				46F915DE1BF4F589003BB08A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46F915E21BF4F589003BB08A /* PBXTargetDependency */,
+			);
+			name = TechtagramUITests;
+			productName = TechtagramUITests;
+			productReference = 46F915E01BF4F589003BB08A /* TechtagramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F915B91BF4F589003BB08A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Takemi Watanuki";
+				TargetAttributes = {
+					46F915C01BF4F589003BB08A = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					46F915D41BF4F589003BB08A = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 46F915C01BF4F589003BB08A;
+					};
+					46F915DF1BF4F589003BB08A = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 46F915C01BF4F589003BB08A;
+					};
+				};
+			};
+			buildConfigurationList = 46F915BC1BF4F589003BB08A /* Build configuration list for PBXProject "Techtagram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46F915B81BF4F589003BB08A;
+			productRefGroup = 46F915C21BF4F589003BB08A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46F915C01BF4F589003BB08A /* Techtagram */,
+				46F915D41BF4F589003BB08A /* TechtagramTests */,
+				46F915DF1BF4F589003BB08A /* TechtagramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46F915BF1BF4F589003BB08A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F915CF1BF4F589003BB08A /* LaunchScreen.storyboard in Resources */,
+				46F915CC1BF4F589003BB08A /* Assets.xcassets in Resources */,
+				46F915CA1BF4F589003BB08A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F915D31BF4F589003BB08A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F915DE1BF4F589003BB08A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46F915BD1BF4F589003BB08A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F915F31BF5B334003BB08A /* testViewController.swift in Sources */,
+				46F915C71BF4F589003BB08A /* ViewController.swift in Sources */,
+				46F915C51BF4F589003BB08A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F915D11BF4F589003BB08A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F915DA1BF4F589003BB08A /* TechtagramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F915DC1BF4F589003BB08A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F915E51BF4F589003BB08A /* TechtagramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46F915D71BF4F589003BB08A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46F915C01BF4F589003BB08A /* Techtagram */;
+			targetProxy = 46F915D61BF4F589003BB08A /* PBXContainerItemProxy */;
+		};
+		46F915E21BF4F589003BB08A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46F915C01BF4F589003BB08A /* Techtagram */;
+			targetProxy = 46F915E11BF4F589003BB08A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46F915C81BF4F589003BB08A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46F915C91BF4F589003BB08A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46F915CD1BF4F589003BB08A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46F915CE1BF4F589003BB08A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46F915E71BF4F589003BB08A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46F915E81BF4F589003BB08A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46F915EA1BF4F589003BB08A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Techtagram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.Techtagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46F915EB1BF4F589003BB08A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Techtagram/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.Techtagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		46F915ED1BF4F589003BB08A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TechtagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.TechtagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Techtagram.app/Techtagram";
+			};
+			name = Debug;
+		};
+		46F915EE1BF4F589003BB08A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TechtagramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.TechtagramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Techtagram.app/Techtagram";
+			};
+			name = Release;
+		};
+		46F915F01BF4F589003BB08A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TechtagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.TechtagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Techtagram;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		46F915F11BF4F589003BB08A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TechtagramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.litech.TechtagramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Techtagram;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46F915BC1BF4F589003BB08A /* Build configuration list for PBXProject "Techtagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F915E71BF4F589003BB08A /* Debug */,
+				46F915E81BF4F589003BB08A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46F915E91BF4F589003BB08A /* Build configuration list for PBXNativeTarget "Techtagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F915EA1BF4F589003BB08A /* Debug */,
+				46F915EB1BF4F589003BB08A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46F915EC1BF4F589003BB08A /* Build configuration list for PBXNativeTarget "TechtagramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F915ED1BF4F589003BB08A /* Debug */,
+				46F915EE1BF4F589003BB08A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46F915EF1BF4F589003BB08A /* Build configuration list for PBXNativeTarget "TechtagramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F915F01BF4F589003BB08A /* Debug */,
+				46F915F11BF4F589003BB08A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F915B91BF4F589003BB08A /* Project object */;
+}
